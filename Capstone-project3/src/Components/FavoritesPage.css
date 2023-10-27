@@ -1,0 +1,102 @@
+FavoritesPage.css
+
+.body {background-color: pink;}
+
+.all-podcasts-container {
+    padding: 20px;
+  }
+  
+  .podcasts-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .podcast-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .podcast-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .podcast-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .podcast-item p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .podcast-details {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+ 
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+  }
+  
+  .podcast-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 5%;
+    margin-left: 5%
+  }
+  
+  .podcast-item img {
+    max-width: 40%;
+  }
+  
+  .podcast-details {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .episode-item {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .favorite-page-heading {
+    text-align: center;
+    font-family: 'Tektur';
+  }
+
+  .sort-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .favorite-page-podcast-title {
+    font-family: 'Share Tech Mono';
+  }
+
+  .favorite-page-podcast-description {
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+  .favorite-page-show-less-button {
+    background-color: lightblue;
+    font-family: 'Tektur';
+  }
+
+  .favorite-page-show-more-button {
+    background-color: lightblue;
+    font-family: 'Tektur';
+  }
+
+  /* .favorite-page-see-podcast-link {}
+
+  .body{
+    
+  } */
+  

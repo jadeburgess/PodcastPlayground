@@ -1,0 +1,44 @@
+.episode-card-title {
+    color: black;
+    font-family: 'Aldrich' monospace;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Victor Mono';
+}
+.episode-card-number {
+    color: black;
+    font-family: 'Oxygen';
+    font-size: smaller;
+    margin-bottom: 0%;
+    
+}
+
+.episode-card-description {
+    color: black;
+    font-family: 'Oxygen';
+    font-size: smaller;
+    margin-top: 0%;
+}
+
+.episode-play-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: lightblue;
+    border: 5px;
+    border-width: 5px;
+    border-radius: 0px;
+    cursor: pointer;
+    font-family: 'Tektur';
+    font-size: 10px;
+    padding: 5px;
+    margin-right: 3px;
+}
+
+.episode-timestamp {
+    font-size: smaller;
+    margin-left: 3px;
+}
+
+.episode-seekbar {
+    size: 6px;
+}

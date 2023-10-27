@@ -1,0 +1,27 @@
+/* Header.css */
+.header {
+    background-image: url('../images/pp-header1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+    margin: -50px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .header--title {
+    font-size: 4rem;
+    font-family: 'Handjet';
+    margin-bottom: 25px;
+    
+  }
+  
+  .header--subtitle {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: ;
+    font-family: 'Inconsolata', monospace
+  }
+  

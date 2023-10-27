@@ -1,0 +1,113 @@
+
+
+
+  .season-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  /* Additional styling for the season images */
+  .season-item img {
+    max-width: 100%;
+    cursor: pointer;
+  }
+
+/* Apply the dark grey background and white font color to the entire page */
+body {
+  background-color: pink;
+  font-size: small;
+  font-family: 'Oxygen';
+}
+
+/* Center the title and image of the podcast */
+.podcast-title {
+  text-align: center;
+}
+
+.podcast-image {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Use Inconsolata font for Genre, Seasons, and Updated */
+.podcast-details {
+  font-family: 'Oxygen';
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add spacing between season buttons */
+.season-button {
+  margin-right: 10px;
+}
+
+.podcast-Coverimage {
+  text-align: center;
+}
+
+.podcast-name {
+  color:gray ;
+  text-align: center;
+  font-family: 'Share Tech Mono';
+}
+
+.podcast-page-genre {
+  text-align: center;
+}
+
+.podcast-page-seasons {
+  text-align: center;
+}
+
+.podcast-page-season-button-container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.podcast-page-season-button {
+  align-items: center;
+  display: inline block;
+  background-color: lightblue;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px;
+  border-color: aquamarine;
+  border-radius: 0px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: 'Tektur';
+  color: black;
+}
+
+.podcast-page-last-updated {
+  text-align: center;
+  font-size: 10px;
+}
+
+.season-card-title {
+  text-align: center;
+  font-family: 'Share Tech Mono';
+  color: gray;
+}
+
+.season-card-image {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.podcast-info {
+  
+}
+
+.podcast-page-description {
+  text-align: justify;
+  font-family: 'Oxygen';
+  font-size: x-small;
+}
+

@@ -1,0 +1,82 @@
+/* PodcastCarousel.css */
+
+.carousel-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  height: 300px; 
+  overflow: hidden;
+}
+
+/* Set the width of the carousel to span across the page */
+.slick-slider {
+  width: 100%;
+}
+
+/* Style the carousel item container */
+.slick-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 200px; 
+  margin: 0 auto;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* Style the podcast image */
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Style the podcast title */
+.slick-slide h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style the next and previous arrow buttons */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: lightgreen;
+  border-radius: 50px;
+  padding: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 1;
+}
+/* style buttons */
+.next {
+  right: 10px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.prev-arrow-button {
+  color: palevioletred;
+  font-family: 'Handjet';
+}
+
+.next-arrow-button {
+  color: palevioletred;
+  font-family: 'Handjet';
+}
+
+.recomended-podcasts {
+  color: grey;
+  text-align: center;
+  font-family: 'Inconsolata', monospace
+}

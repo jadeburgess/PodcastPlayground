@@ -1,0 +1,159 @@
+/* AllPodcasts.css */
+.body { 
+  background-color: pink;
+} 
+
+.all-podcasts-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+    font-size: small;
+  }
+  
+  .sort-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  
+  }
+  
+  .sort-buttons button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: lightblue;
+    border: 5px;
+    border-width: 5px;
+    border-radius: 0px;
+    cursor: pointer;
+    font-family: 'Tektur';
+    font-size: 15px;
+    
+  }
+  
+  .podcasts-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+  }
+  
+  .podcast-item {
+    display: table-row;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center; /* Centers the content vertically */
+    background-color: #c8a2c8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Oxygen';
+    text-align: center; /* Center the text horizontally */
+    gap: 10px;
+    color: #000;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .podcast-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    align-self: center;
+  }
+
+  .podcast-item a {
+    text-decoration: none;
+  }
+  
+  .podcast--title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Share Tech Mono';
+    text-decoration: none; 
+  }
+  
+  .podcast-details {
+    display: none;
+    color: #000;
+    font-family: 'Oxygen';
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    }
+    
+
+
+  .all-podcasts-card-genre {
+    color: #000;
+  }
+
+  /* .all-podcasts-card-season-no {
+
+  } */
+
+  .all-podcasts-card-date {
+    font-size: smaller;
+  }
+  
+  .podcast-item:hover .podcast-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* .podcast-details p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  } */
+  
+  .star-icon {
+    cursor: pointer;
+  }
+  
+  /* .favorite {
+    color: gold; /* Change the color to indicate that it's a favorite 
+  } 
+  */
+  
+  
+.faveList--button {
+  background-color: palegreen;
+  font-family: 'Tektur';
+  padding: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%
+}
+
+.favorite-btn {
+  font-size: 25px;
+  background: none;
+  border: none;
+  padding: 5%;
+}
+
+.read-more-btn {
+  background-color: lightblue;
+  font-family: 'Tektur';
+}
+
+.play-btn {
+  background-color: lightblue;
+  font-family: 'Tektur';
+}
+
+.imput-search-bar {
+  padding: 5%;
+  margin: 5%;
+  
+}
+
+.podcast-search-bar {
+  border-radius: 10px;
+  color: aliceblue;
+  margin-left: 5%;
+}
